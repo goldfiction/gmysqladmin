@@ -1,7 +1,9 @@
 {
   "name": "gmysqladmin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":"This is a mysql database manager in a style similar to rockmongo.",
+  "repository":"git@github.com:goldfiction/gmysqladmin.git",
+  "license":"Apache-2.0",
   "dependencies": {
     "gqcoffee":"1.0.23",
     "gqexpress":"1.0.1",
