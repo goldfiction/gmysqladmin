@@ -1,0 +1,11 @@
+{
+  "name": "gmysqladmin",
+  "version": "1.0.0",
+  "description":"This is a mysql database manager in a style similar to rockmongo.",
+  "dependencies": {
+    "gqcoffee":"1.0.23",
+    "gqexpress":"1.0.1",
+    "gqmysql":"0.1.21",
+    "lodash":"4.17.11"
+  }
+}

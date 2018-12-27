@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1 gmysqladmin
+    textarea#query {"key":{},"data":{},"limit":10}
+    br
+    textarea#connection {"host":"mysql","user":"admin","password":"","database":"db","table":"test"}
+    br
+    button#get(onclick="get()") get
+    button#upsert(onclick="upsert()") upsert
+    button#delete(onclick="del()") delete
+    button#clear(onclick="clear()") clear
+    br
+    textarea#result
